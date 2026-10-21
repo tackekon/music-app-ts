@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "653b3f79884a78f7ecf902e1"
+  },
+  "title": "Nhạc trẻ",
+  "avatar": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/b/2/c/b/b2cbcb8cff38dbd4b827a056b2d51b07.jpg",
+  "description": "Tổng hợp nhạc Nhạc trẻ mới nhất",
+  "status": "active",
+  "slug": "nhac-tre",
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "653b3f79884a78f7ecf902e2"
+  },
+  "title": "Bolero",
+  "avatar": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/0/2/c/2/02c208a33db3efa01856e7057d7810ce.jpg",
+  "description": "Tổng hợp nhạc Bolero mới nhất",
+  "status": "active",
+  "slug": "bolero",
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "653b3f79884a78f7ecf902e3"
+  },
+  "title": "Remix",
+  "avatar": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/b/2/9/0/b2900dd850ad6bc26e88457b2459b141.jpg",
+  "description": "Tổng hợp nhạc Remix mới nhất",
+  "status": "active",
+  "slug": "remix",
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "653b3f79884a78f7ecf902e4"
+  },
+  "title": "Hip-Hop",
+  "avatar": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/3/e/4/1/3e414f8887e4b4cf17d831c5420f9c77.jpg",
+  "description": "Tổng hợp nhạc Hip-Hop mới nhất",
+  "status": "active",
+  "slug": "hip-hop",
+  "deleted": false
+},
+{
+  "_id": {
+    "$oid": "653b3f79884a78f7ecf902e5"
+  },
+  "title": "Latin",
+  "avatar": "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_jpeg/cover/4/9/a/1/49a1771e5272bafe4a230e7fcc045f8b.jpg",
+  "description": "Tổng hợp nhạc Latin mới nhất",
+  "status": "active",
+  "slug": "latin",
+  "deleted": false
+}]
