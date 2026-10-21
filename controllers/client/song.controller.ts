@@ -122,8 +122,7 @@ export const favorite = async (req: Request, res: Response) => {
     default:
       break;
   }
-  console.log(idSong);
-  console.log(typeFavorite);
+
 
   res.json({
     code: 200,
