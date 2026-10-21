@@ -1,0 +1,57 @@
+[
+  {
+    "_id": {
+      "$oid": "653b3f79884a78f7ecf902e1"
+    },
+    "title": "Nhạc trẻ",
+    "avatar": "https://backend.daca.vn/assets/images/nhac-tre.jpg",
+    "description": "Tổng hợp nhạc Nhạc trẻ mới nhất",
+    "status": "active",
+    "slug": "nhac-tre",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b3f79884a78f7ecf902e2"
+    },
+    "title": "Bolero",
+    "avatar": "https://backend.daca.vn/assets/images/bolero.jpg",
+    "description": "Tổng hợp nhạc Bolero mới nhất",
+    "status": "active",
+    "slug": "bolero",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b3f79884a78f7ecf902e3"
+    },
+    "title": "Remix",
+    "avatar": "https://backend.daca.vn/assets/images/remix.jpg",
+    "description": "Tổng hợp nhạc Remix mới nhất",
+    "status": "active",
+    "slug": "remix",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b3f79884a78f7ecf902e4"
+    },
+    "title": "Hip-Hop",
+    "avatar": "https://backend.daca.vn/assets/images/hip-hop.jpg",
+    "description": "Tổng hợp nhạc Hip-Hop mới nhất",
+    "status": "active",
+    "slug": "hip-hop",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b3f79884a78f7ecf902e5"
+    },
+    "title": "Latin",
+    "avatar": "https://backend.daca.vn/assets/images/latin.jpg",
+    "description": "Tổng hợp nhạc Latin mới nhất",
+    "status": "active",
+    "slug": "latin",
+    "deleted": false
+  }
+]
