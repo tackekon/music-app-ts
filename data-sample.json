@@ -1,3 +1,4 @@
+// topics
 [
   {
     "_id": {
@@ -52,6 +53,116 @@
     "description": "Tổng hợp nhạc Latin mới nhất",
     "status": "active",
     "slug": "latin",
+    "deleted": false
+  }
+]
+
+// singers
+[
+  {
+    "_id": {
+      "$oid": "653b765c884a78f7ecf902ec"
+    },
+    "fullName": "Tăng Duy Tân",
+    "avatar": "https://backend.daca.vn/assets/images/tang-duy-tan.jpg",
+    "status": "active",
+    "slug": "tang-duy-tan",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b765c884a78f7ecf902ed"
+    },
+    "fullName": "Thành Đạt",
+    "avatar": "https://backend.daca.vn/assets/images/thanh-dat.jpg",
+    "status": "active",
+    "slug": "thanh-dat",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b765c884a78f7ecf902ee"
+    },
+    "fullName": "Cao Thái Sơn",
+    "avatar": "https://backend.daca.vn/assets/images/cao-thai-son.jpg",
+    "status": "active",
+    "slug": "cao-thai-son",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b765c884a78f7ecf902ef"
+    },
+    "fullName": "TLong",
+    "avatar": "https://backend.daca.vn/assets/images/tlong.jpg",
+    "status": "active",
+    "slug": "tlong",
+    "deleted": false
+  },
+  {
+    "_id": {
+      "$oid": "653b765c884a78f7ecf902f0"
+    },
+    "fullName": "Nal",
+    "avatar": "https://backend.daca.vn/assets/images/nal.jpg",
+    "status": "active",
+    "slug": "nal",
+    "deleted": false
+  }
+]
+
+// songs
+[
+  {
+    "title": "Cắt Đôi Nỗi Sầu",
+    "avatar": "https://backend.daca.vn/assets/images/cat-doi-noi-sau.jpg",
+    "description": "Mô tả bài hát Cắt Đôi Nỗi Sầu...",
+    "singerId": "653b765c884a78f7ecf902ec",
+    "topicId": "653b3f79884a78f7ecf902e1",
+    "like": 1250,
+    "lyrics": "<div class=\"ujudUb\">Cắt đ&ocirc;i nỗi sầu<br>Anh bu&ocirc;ng tay cắt đ&ocirc;i nỗi sầu<br>Anh cắt đi cả b&oacute;ng h&igrave;nh<br>Anh mang theo b&ecirc;n m&igrave;nh bẩy l&acirc;u<br>Nỗi đau đã̃ cạn<br>Cơn mưa trong tim cũng đã̃ tan<br>Anh b&aacute;n đi mọi nỗi buồn<br>Để chẳng c&oacute; ng&agrave;y ngoai thanh thản<br>Em ơi anh muốn<br>Mỗi tối đến anh kh&ocirc;ng phải thất t&igrave;nh<br>Muốn quên một b&oacute;ng h&igrave;nh<br>Em để lại, trong tim<br>Anh kh&ocirc;ng thể đếm<br>Đã̃ c&oacute; bấy nhi&ecirc;u đ&ecirc;m<br>Phải kiếm t&igrave;m<br>Kiếm th&ecirc;m một l&iacute; do<br>Cho cuộc t&igrave;nh kh&ocirc;ng t&ecirc;n<br>Anh đã̃ thức, thức xuy&ecirc;n đ&ecirc;m<br>Anh đã̃ cố gắng để quên em<br>Nhưng anh biết<br>Trong con tim anh kh&ocirc;ng đã̃nh<br>M&agrave;n đ&ecirc;m xuống, muốn bu&ocirc;ng tay<br>Sầu giăng k&iacute;n nỗi nhớ đong đầy<br>Anh đang chết dần ng&agrave;y từng ng&agrave;y<br>Em ơi<br>Nhớ em rất nhiều<br>Em ơi anh nhớ em rất nhiều<br>Anh nhớ hơn cả nhớ nh&agrave;ng<br>Nhưng em đã̃ ưu nhớ g&igrave; đến ta<br>L&uacute;c y&ecirc;u chẳng hiểu<br>Khi chia li sẽ đau rất nhiều<br>Đau đến trong tận linh hồn<br>V&agrave; cuộc đời một m&agrave;u băng gi&aacute;<br>Em ơi anh muốn<br>Mỗi tối đến anh kh&ocirc;ng phải thất t&igrave;nh<br>Muốn quên một b&oacute;ng h&igrave;nh<br>Em để lại, trong tim<br>Anh kh&ocirc;ng thể đếm<br>Đã̃ c&oacute; bấy nhi&ecirc;u đ&ecirc;m<br>Phải kiếm t&igrave;m<br>Kiếm th&ecirc;m một l&iacute; do<br>Cho cuộc t&igrave;nh kh&ocirc;ng t&ecirc;n<br>Anh đã̃ thức, thức xuy&ecirc;n đ&ecirc;m<br>Anh đã̃ cố gắng để quên em<br>Nhưng anh biết<br>Trong con tim anh kh&ocirc;ng đã̃nh<br>M&agrave;n đ&ecirc;m xuống, muốn bu&ocirc;ng tay<br>Sầu giăng k&iacute;n nỗi nhớ đong đầy<br>Anh đang chết dần ng&agrave;y từng ng&agrave;y<br>Em ơi</div>",
+    "audio": "https://backend.daca.vn/assets/audios/cat-doi-noi-sau.mp3",
+    "status": "active",
+    "slug": "cat-doi-noi-sau",
+    "deleted": false
+  },
+  {
+    "title": "Ngày Mai Người Ta Lấy Chồng",
+    "avatar": "https://backend.daca.vn/assets/images/ngay-mai-nguoi-ta-lay-chong.jpg",
+    "description": "Mô tả bài hát Ngày Mai Người Ta Lấy Chồng...",
+    "singerId": "653b765c884a78f7ecf902ed",
+    "topicId": "653b3f79884a78f7ecf902e1",
+    "like": 1420,
+    "lyrics": "<div class=\"ujudUb\">Ai t&igrave;m ai tr&ecirc;n...</div>",
+    "audio": "https://backend.daca.vn/assets/audios/ngay-mai-nguoi-ta-lay-chong.mp3",
+    "status": "active",
+    "slug": "ngay-mai-nguoi-ta-lay-chong",
+    "deleted": false
+  },
+  {
+    "title": "Tất Cả Hoặc Không Là Gì Cả",
+    "avatar": "https://backend.daca.vn/assets/images/tat-ca-hoac-khong-la-gi-ca.jpg",
+    "description": "Mô tả bài hát Tất Cả Hoặc Không Là Gì Cả...",
+    "singerId": "653b765c884a78f7ecf902ee",
+    "topicId": "653b3f79884a78f7ecf902e1",
+    "like": 890,
+    "lyrics": "<div class=\"ujudUb\">\n  <p>Ta y&ecirc;u nhau từ trong lặng thinh, rồi cứ...</p>\n</div>",
+    "audio": "https://backend.daca.vn/assets/audios/tat-ca-hoac-khong-la-gi-ca.mp3",
+    "status": "active",
+    "slug": "tat-ca-hoac-khong-la-gi-ca",
+    "deleted": false
+  },
+  {
+    "title": "Rượu Mừng Hóa Người Dưng",
+    "avatar": "https://backend.daca.vn/assets/images/ruou-mung-hoa-nguoi-dung.jpg",
+    "description": "Mô tả bài hát Rượu Mừng Hóa Người Dưng...",
+    "singerId": "653b765c884a78f7ecf902ef",
+    "topicId": "653b3f79884a78f7ecf902e1",
+    "like": 1100,
+    "lyrics": "<div class=\"ujudUb\">\n  <div class=\"ujudUb\">Nh&acirc;m nhi ly rượu cay t...</div>\n</div>",
+    "audio": "https://backend.daca.vn/assets/audios/ruou-mung-hoa-nguoi-dung.mp3",
+    "status": "active",
+    "slug": "ruou-mung-hoa-nguoi-dung",
     "deleted": false
   }
 ]
