@@ -77,7 +77,6 @@ export const like = async (req: Request, res: Response) => {
   await Song.updateOne({
     _id: idSong
   },{
-    //like: song.like + 1
     like: newLike
   }
   );
