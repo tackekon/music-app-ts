@@ -1,28 +1,40 @@
-tinymce.init({
-  selector: "textarea.textarea-mce",
-  license_key: 'gpl',
-  plugins: 'advlist link image lists',
-  file_picker_callback: (cb, value, meta) => {
-    const input = document.createElement('input');
-    input.setAttribute('type', 'file');
-    input.setAttribute('accept', 'image/*');
+const listTextareaMCE = document.querySelectorAll("[textarea-mce]");
 
-    input.addEventListener('change', (e) => {
-      const file = e.target.files[0];
+if (listTextareaMCE.length > 0 ){
+  listTextareaMCE.forEach((textarea) => {
+    const id = textarea.id;
+    tinymce.init({
+      selector: `#${id}`,
+      license_key: 'gpl', // The editor is disabled because a TinyMCE license key has not been provided.
+      plugins: 'image code',
+      image_title: true,
+      images_upload_url: "/admin/upload",
+      automatic_uploads: true,
+      file_piker_types: "images"
+      // file_picker_callback: (cb, value, meta) => {
+      //   const input = document.createElement('input');
+      //   input.setAttribute('type', 'file');
+      //   input.setAttribute('accept', 'image/*');
 
-      const reader = new FileReader();
-      reader.addEventListener('load', () => {
-        const id = 'blobid' + (new Date()).getTime();
-        const blobCache =  tinymce.activeEditor.editorUpload.blobCache;
-        const base64 = reader.result.split(',')[1];
-        const blobInfo = blobCache.create(id, file, base64);
-        blobCache.add(blobInfo);
+      //   input.addEventListener('change', (e) => {
+      //     const file = e.target.files[0];
 
-        cb(blobInfo.blobUri(), { title: file.name });
-      });
-      reader.readAsDataURL(file);
+      //     const reader = new FileReader();
+      //     reader.addEventListener('load', () => {
+      //       const id = 'blobid' + (new Date()).getTime();
+      //       const blobCache =  tinymce.activeEditor.editorUpload.blobCache;
+      //       const base64 = reader.result.split(',')[1];
+      //       const blobInfo = blobCache.create(id, file, base64);
+      //       blobCache.add(blobInfo);
+
+      //       cb(blobInfo.blobUri(), { title: file.name });
+      //     });
+      //     reader.readAsDataURL(file);
+      //   });
+
+      //   input.click();
+      // }
     });
+  });
+}
 
-    input.click();
-  }
-});
