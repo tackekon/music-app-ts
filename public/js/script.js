@@ -31,6 +31,22 @@ if (aplayer) {
     avatar.style.animationPlayState = "paused";
   });
 
+  
+  ap.on('ended', function () {
+    const link = `/songs/listen/${dataSong._id}`;
+
+    const option = {
+      method: "PATCH"
+    }
+
+    fetch(link, option)
+      .then(res => res.json())
+      .then(data => {
+        const elementListenSpan = document.querySelector(".singer-detail .inner-listen span");
+        elementListenSpan.innerHTML = `${data.listen} lượt nghe`;
+      });
+  });
+
 }
 // End APlayer
 
@@ -91,7 +107,7 @@ if(listButtonFavorite.length > 0) {
 }
 // End Button Favorite
 
-// Search suggest
+// Search Suggest
 const boxSearch = document.querySelector(".box-search");
 if(boxSearch) {
   const input = boxSearch.querySelector("input[name='keyword']");
@@ -105,7 +121,7 @@ if(boxSearch) {
     fetch(link)
       .then(res => res.json())
       .then(data => {
-        const songs= data.songs;
+        const songs = data.songs;
         if (songs.length > 0) {
           boxSuggest.classList.add("show");
           
@@ -124,7 +140,7 @@ if(boxSearch) {
               </a>
             `
           });
-
+          
           const boxList = boxSuggest.querySelector(".inner-list");
           boxList.innerHTML = htmls.join("");
 
@@ -132,7 +148,6 @@ if(boxSearch) {
           boxSuggest.classList.remove("show");
         }
       });
-
   });
 }
-// End Search suggest
+// End Search Suggest

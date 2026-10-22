@@ -30,7 +30,6 @@ export const result = async (req: Request, res: Response) => {
         _id: item.singerId
       });
 
-      //item["infoSinger"] = infoSinger
       newSongs.push ({
         id: item.id,
         title: item.title,
@@ -43,7 +42,6 @@ export const result = async (req: Request, res: Response) => {
       });
     }
 
-    //newSongs = songs;
   }
 
   switch (type) {
